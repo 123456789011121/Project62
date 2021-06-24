@@ -1,0 +1,59 @@
+body{
+    background-color: plum;
+    text-align: center
+}
+
+.links:hover{
+    background-image: linear-gradient(pink,lavender,skyblue);
+    font-size: 25px;
+    text-decoration: underline;
+    color: deeppink;
+    font-family: fantasy;
+    border: 2px solid deeppink
+}
+
+.links{
+    float:left;
+    color: purple;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    border: 2px solid #E1BEE7
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+    position: absolute
+}
+
+#flowers1{
+    width: 1000px
+}
+
+#view{
+    text-decoration: underline
+}
+
+#flowers2{
+    width: 350px
+}
+
+#flowerSpecial{
+    width: 246.5px
+}
+
+#flowerSpecial2{
+    width: 438px
+}
+
+#flowers3{
+    height: 500px
+}
